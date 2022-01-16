@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Mono&display=swap');
+*{
+    border: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+/* NAVBAR */
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+.nav-img{
+    width: 45px;
+    height: auto;
+    transition: 0.3s;
+    user-select: none;
+}
+.nav-img:hover{
+    width: 60px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+.logo{
+    font-size: 4rem;
+    font-family: 'Permanent Marker', cursive;
+    pointer-events: none;
+    user-select: none;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
+
+/* DROP INFO */
+
+.drop-info{
+    width: 100vw;
+    height: 500px;
+    padding: 0px 500px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.drop-title, .best-of-drop-title{
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    pointer-events: none;
+    user-select: none;
+    margin-bottom: 50px;
+}
+.drop-text, .best-of-drop-text{
+    font-size: 1rem;
+    font-family: 'Red Hat Mono', monospace;
+    text-align: justify;
+    pointer-events: none;
+    user-select: none;
+}
+.best-of{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 250px;
+}
+.best-of-drop-title{
+    margin-top: 100px;
+}
+.best-of-drop-text{
+    padding: 0 200px;
+}
+.img-clothing{
+    width: 450px;
+}
+
