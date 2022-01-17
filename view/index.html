@@ -9,24 +9,8 @@
     <link rel="stylesheet" href='../css/index.css'>
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <!-- Img nacionalidade -->
-            <a href="#"><img class="nav-img" src="../img/language.svg" alt="Nacionalidade"></a>
-            <!-- Icon maps -->
-            <a href="#"><img class="nav-img" src="../img/maps.svg" alt="Maps"></a>
-        </div>
-        <div class="nav-center">
-            <span class="logo"><p>Infinity Company</p></span>
-        </div>
-        <div class="nav-right">
-            <!-- icon carrinho -->
-            <a href="#"><img class="nav-img" src="../img/cart.svg" alt="Carrinho"></a>
-            <!-- icon shop -->
-            <a href="#"><img class="nav-img" src="../img/market.svg" alt="Shopping"></a>
-            <!-- icon perfil -->
-            <a href="#"><img class="nav-img" src="../img/login.svg" alt="Meu perfil"></a>
-        </div>
+    <nav class='navbar'>
+       
     </nav> 
     <main>
         <div class="main-bunner">
@@ -62,16 +46,61 @@
                 Nulla ccumsan dolor. Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitor sodales id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque.
             </p>
         </article>
-        <article class="best-of">
-            <img class='img-clothing' src="../img/tshirt-img.svg" alt="t-shirt image">
-            <div class="best-of-drop">
-              <div class="best-of-drop-title"><span><p>Tee Cereal Monkey White</p></span></div>
-              <div class="best-of-drop-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor.<br> Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitorsodales <br>id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque.</p></div>
+        <!-- inicio carousel -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              
+              <article class="best-of">
+                <img class='img-clothing' src="../img/image-3.svg" alt="t-shirt image">
+                <div class="best-of-drop">
+                  <div class="best-of-drop-title"><span><p>Tee Cereal Monkey White</p></span></div>
+                  <div class="best-of-drop-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor.<br> Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitorsodales <br>id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque.</p></div>
+                </div>
+
+            </article>
             </div>
+            <div class="carousel-item">
+              <article class="best-of">
+                <img class='img-clothing' src="../img/image-2.svg" alt="t-shirt image">
+                <div class="best-of-drop">
+                  <div class="best-of-drop-title"><span><p>Tee Cereal Monkey White</p></span></div>
+                  <div class="best-of-drop-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor.<br> Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitorsodales <br>id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque.</p></div>
+                </div>
+
+            </article>
+            </div>
+            <div class="carousel-item">
+              <article class="best-of">
+                <img class='img-clothing' src="../img/image-1.svg" alt="t-shirt image">
+                <div class="best-of-drop">
+                  <div class="best-of-drop-title"><span><p>Tee Cereal Monkey White</p></span></div>
+                  <div class="best-of-drop-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor.<br> Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitorsodales <br>id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque.</p></div>
+                </div>
+
+            </article>
+            </div>
+          </div>
+          <div class="buttonBox">
+            <input type="button" value="Ler mais" id="best-of-drop-btn">
+          </div>
+         
+        <!-- fim carousel -->
+        <hr>
+        <article class='main-shop'>
+          <div class="main-shop-title"><p>Shop</p></div>
+
+          <div class="main-shop-content">
+            <!-- inserted from js -->
+          </div>
+          
         </article>
     </main>
     <footer></footer>
-    
+
+    <script src="../js/navbar.js"></script>
+    <script src="../js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   

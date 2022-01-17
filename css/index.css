@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 *{
     border: 0; 
     margin: 0; 
@@ -58,7 +59,7 @@ nav{
     flex-direction: column;
 }
 .drop-title, .best-of-drop-title{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
     pointer-events: none;
     user-select: none;
@@ -80,11 +81,88 @@ nav{
 }
 .best-of-drop-title{
     margin-top: 100px;
+    font-size: 1.5rem;
 }
 .best-of-drop-text{
-    padding: 0 200px;
+    padding: 0 250px;
 }
 .img-clothing{
-    width: 450px;
+    width: 800px;
+    margin-right: -200px;
+}
+.buttonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#best-of-drop-btn{
+    width: 245px;
+    height: 53px;
+    background-color: #42488F;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: Permanent Marker;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color:white;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+#best-of-drop-btn:hover{
+    width: 300px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #42488F;
+}
+/*SHOP*/
+hr{
+    width: 300px;
+    margin-left: 42%;
+    margin-top: 70px;
+}
+.main-shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.main-shop-title{
+    font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
+    pointer-events: none;
+    user-select: none;
+    margin-bottom: 0;
+}   
+.main-shop-content{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 1200px;
+
+}
+.main-shop-content-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-shop-item-title{
+    font-size: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    pointer-events: none;
+    user-select: none;
+}
+.main-shop-item-value{
+    font-family: 'Pattaya', sans-serif;
+}
+.main-shop-item-title, .main-shop-item-value{
+    margin-top: -15px;
+    padding-bottom: 5px;
 }
 
