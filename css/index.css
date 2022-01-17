@@ -16,7 +16,7 @@ nav{
     margin: 20px 50px;
 }
 .nav-img{
-    width: 45px;
+    width: 35px;
     height: auto;
     transition: 0.3s;
     user-select: none;
@@ -34,10 +34,11 @@ nav{
     height: 50px;
 }
 .logo{
-    font-size: 4rem;
+    font-size: 2.3rem;
     font-family: 'Permanent Marker', cursive;
     pointer-events: none;
     user-select: none;
+    padding: auto 0px;
 }
 .nav-right{
     display: flex;
@@ -77,24 +78,30 @@ nav{
     text-align: center;
     justify-content: center;
     flex-direction: row;
-    margin: 0 250px;
+    
 }
 .best-of-drop-title{
-    margin-top: 100px;
     font-size: 1.5rem;
 }
 .best-of-drop-text{
-    padding: 0 250px;
+    text-align: center;
+    
+}
+.best-of-drop {
+    margin: auto 0px;
 }
 .img-clothing{
-    width: 800px;
-    margin-right: -200px;
+    width: 22%;
+}
+.best-of-drop{
+    width: 500px;
 }
 .buttonBox{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #best-of-drop-btn{
     width: 245px;
     height: 53px;
@@ -165,4 +172,3 @@ hr{
     margin-top: -15px;
     padding-bottom: 5px;
 }
-
