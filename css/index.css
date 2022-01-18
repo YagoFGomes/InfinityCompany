@@ -50,9 +50,9 @@ nav{
 /* DROP INFO */
 
 .drop-info{
-    width: 100vw;
+    width: 900px;
     height: 500px;
-    padding: 0px 500px;
+    margin: 0 auto;
 
     display: flex;
     text-align: center;
@@ -106,30 +106,33 @@ nav{
     width: 245px;
     height: 53px;
     background-color: #42488F;
+    box-shadow: 1px 5px 4px black;
     border-radius: 30px;
     font-size: 24px;
     font-family: Permanent Marker;
-    
     font-style: normal;
     font-weight: 400;
-    line-height: 35px;
     text-align: center;
     color:white;
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    transition: 0.3s;
+    transition: 0.05s;
 }
 #best-of-drop-btn:hover{
-    width: 300px;
     cursor: pointer;
-    font-size: 30px;
-    background-color: #42488F;
+    background-color: whitesmoke;
+    color: #42488F;
+    border: #42488F 1px solid;
+    box-shadow: 3px 10px 10px black;
+    transform: scale(1.03);
 }
 /*SHOP*/
 hr{
     width: 300px;
-    margin-left: 42%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 70px;
 }
 .main-shop{
@@ -159,6 +162,7 @@ hr{
     align-items: center;
     flex-direction: column;
 }
+
 .main-shop-item-title{
     font-size: 1rem;
     font-family: 'Permanent Marker', cursive;
