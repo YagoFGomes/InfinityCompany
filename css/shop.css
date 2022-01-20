@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Red+Hat+Mono&display=swap');
+*{
+    border: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+/* NAVBAR */
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+.nav-img{
+    width: 35px;
+    height: auto;
+    transition: 0.3s;
+    user-select: none;
+}
+.nav-img:hover{
+    width: 60px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+.logo{
+    font-size: 2.3rem;
+    font-family: 'Permanent Marker', cursive;
+    pointer-events: none;
+    user-select: none;
+    padding: auto 0px;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
+.main-banner{
+    width:90vw;
+    margin: 0 auto;
+
+}
+.grid-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows:400px;
+}
+.banner-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-title, .banner-subtitle{
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    pointer-events: none;
+    user-select: none;
+}
+.banner-subtitle{
+    font-size: 1.2rem;
+}
+hr{
+    width: 100vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about-drop{
+    width: 70vw;
+    height: auto;
+    
+    margin: 50px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.about-drop-title{
+    font-family: Permanent Marker;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.about-drop-subtitle{
+    font-family: 'Dongle', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.about-drop-text{
+    font-family: 'Red Hat Mono', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
+iframe{
+    margin-top: 50px;
+    width:70vw;
+    height:60vh;
+}

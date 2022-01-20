@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 *{
     border: 0; 
     margin: 0; 
@@ -117,7 +116,7 @@ nav{
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    transition: 0.05s;
+    transition: 0.5s;
 }
 #best-of-drop-btn:hover{
     cursor: pointer;
