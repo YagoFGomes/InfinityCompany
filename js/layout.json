@@ -2,23 +2,28 @@
     {
         "url": "../img/image-1.svg",
         "title": "Tee Cereal Monkey White",
-        "value": "149,00"
+        "value": "149,00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor. Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitor sodales id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque."
     },
 
     {
         "url": "../img/image-2.svg",
         "title": "Tee Cereal Monkey White",
-        "value": "149,00"
+        "value": "149,00",
+        "color": "white",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor. Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitor sodales id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque."
     },
     {
         "url": "../img/image-3.svg",
         "title": "Tee Cereal Monkey White",
-        "value": "149,00"
+        "value": "149,00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor. Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitor sodales id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque."
     },
     {
         "url": "../img/image-5.svg",
         "title": "Tee Cereal Monkey White",
-        "value": "149,00"
+        "value": "149,00",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor dignissim, dictum tortor quis, accumsan dolor. Nam dictum leo non purus accumsan, eget faucibus elit condimentum. Duis eu purus massa. Aliquam in felis sed elit porttitor sodales id nec quam. Aliquam erat volutpat. Cras sem purus, finibus quis est vel, rhoncus porttitor odio. Morbi quis euismod neque."
     }
 
 ]

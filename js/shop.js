@@ -15,4 +15,6 @@ fetch("../js/layout.json")
         let div_content = document.querySelector('.grid-banner')
         div_content.innerHTML += template  
     }
+    
+
 })
